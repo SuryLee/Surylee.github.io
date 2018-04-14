@@ -1,0 +1,117 @@
+  .container .jumbotron h1 {
+    text-align: center;
+  }
+
+  .container .jumbotron h2 {
+    text-align: center;
+  }
+
+  .container .jumbotron p {
+    text-align: center;
+  }
+
+  .dt {
+    text-align: center;
+    transition: width 2s, height 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    /* Firefox 4 */
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    /* Safari and Chrome */
+    -o-transition: width 2s, height 2s, -o-transform 2s;
+    /* Opera */
+  }
+
+  .dt:hover {
+    transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    /* Firefox 4 */
+    -webkit-transform: rotate(180deg);
+    /* Safari and Chrome */
+    -o-transform: rotate(180deg);
+    /* Opera */
+  }
+
+  .bt {
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+    border: 1px solid #8dcc73;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    background-color: rgb(0, 162, 255);
+    position: fixed;
+    top: 0%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .animation1 {
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    background: rgb(51, 238, 129);
+  }
+
+  .animation1:hover {
+    width: 350px;
+    height: 40px;
+    background: rgb(51, 238, 129);
+    animation: myfirst 3s;
+    -moz-animation: myfirst 3s;
+    /* Firefox */
+    -webkit-animation: myfirst 3s;
+    /* Safari and Chrome */
+    -o-animation: myfirst 3s;
+    /* Opera */
+  }
+
+
+  @keyframes myfirst {
+    from {
+      background: rgb(51, 238, 129);
+    }
+    to {
+      background: rgb(87, 207, 255);
+    }
+  }
+
+  @-moz-keyframes myfirst
+  /* Firefox */
+
+    {
+    from {
+      background: rgb(51, 238, 129);
+    }
+    to {
+      background: rgb(87, 207, 255);
+    }
+  }
+
+  @-webkit-keyframes myfirst
+  /* Safari and Chrome */
+
+    {
+    from {
+      background: rgb(51, 238, 129);
+    }
+    to {
+      background: rgb(87, 207, 255);
+    }
+  }
+
+  @-o-keyframes myfirst
+  /* Opera */
+
+    {
+    from {
+      background: rgb(51, 238, 129);
+    }
+    to {
+      background: rgb(87, 207, 255);
+    }
+  }
